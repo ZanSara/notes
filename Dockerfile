@@ -1,4 +1,4 @@
-FROM --platform=$BUILDPLATFORM python:3.10-slim-bullseye AS build
+FROM python:3.10-slim-bullseye AS build
 
 RUN apt update && apt install -y npm
 
